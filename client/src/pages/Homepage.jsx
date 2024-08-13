@@ -18,7 +18,7 @@ function HomePage() {
   const findLocation = async (text) => {
     try {
       const result = await axios.get(
-        `http://localhost:4001/trips?keywords=${text}`
+        `https://tourist-attraction-server.vercel.app/trips?keywords=${text}`
       );
       setLocation(result.data.data);
     } catch (error) {
