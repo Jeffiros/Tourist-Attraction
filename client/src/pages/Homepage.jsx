@@ -128,7 +128,7 @@ function HomePage() {
                   return (
                     <div key={index}>
                       <img
-                        className="flex rounded-3xl w-[7rem] h-[6rem] hover:w-[9rem] hover:h-[7rem] hover:duration-500"
+                        className="flex rounded-3xl w-[7rem] h-[6rem] hover:scale-[1.2] hover:duration-500"
                         src={photo}
                       />
                     </div>
